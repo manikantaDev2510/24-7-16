@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: aliceblue;
+        }
+        svg {
+            height: 50vh;
+            width: 50vw;
+        }
+
+        #fan:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 0s;
+        }
+
+        #fan1:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 9s;
+        }
+
+        #fan2:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 7s;
+        }
+
+        #fan3:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 5s;
+        }
+
+        #fan4:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 3s;
+        }
+
+        #fan5:checked~svg {
+            transform: rotate(360deg);
+            transition-property: all;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <input type="radio" name="fan" id="fan">Off<br>
+    <input type="radio" name="fan" id="fan1">1 <br>
+    <input type="radio" name="fan" id="fan2">2 <br>
+    <input type="radio" name="fan" id="fan3">3 <br>
+    <input type="radio" name="fan" id="fan4">4 <br>
+    <input type="radio" name="fan" id="fan5">5 <br>
+
+    <svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64"
+        enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+            <title>Fan</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Page-1" sketch:type="MSPage">
+                <g id="Fan" transform="translate(1.000000, 1.000000)" sketch:type="MSLayerGroup">
+                    <circle id="Oval_1_" sketch:type="MSShapeGroup" fill="none" stroke="#6B6C6E" stroke-width="2"
+                        cx="31" cy="31" r="31"> </circle>
+                    <path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#6B6C6E" stroke-width="2"
+                        d="M51,22c-6.2,0-9.8,4.5-14.7,7.1 c-0.6-1.6-1.9-2.8-3.5-3.3c2.6-5,7-8.7,7-14.9C39.8,6,35.9,4,31,4s-8.8,2.1-8.8,6.9c0,6.2,4.4,9.9,7,14.9 c-1.6,0.5-2.8,1.8-3.4,3.3c-4.9-2.6-8.5-7.1-14.7-7.1c-4.9,0-7,4.1-7,8.9s2.1,9,7,9c6.2,0,9.8-4.5,14.7-7.1 c0.6,1.6,1.8,2.9,3.4,3.4c-2.6,4.9-6.9,8.6-6.9,14.8c0,4.9,3.9,6.9,8.8,6.9s8.8-2.1,8.8-6.9c0-6.2-4.3-9.9-6.9-14.8 c1.6-0.6,2.9-1.8,3.4-3.4c4.9,2.6,8.5,7.1,14.7,7.1c4.9,0,7-4.1,7-9S55.9,22,51,22L51,22z">
+                    </path>
+                    <ellipse id="Oval" sketch:type="MSShapeGroup" fill="none" stroke="#6B6C6E" stroke-width="2"
+                        cx="30.9" cy="31" rx="1.9" ry="2"> </ellipse>
+                </g>
+            </g>
+        </g>
+    </svg>
+
+</body>
+
+</html>
